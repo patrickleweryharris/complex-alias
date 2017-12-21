@@ -1,0 +1,11 @@
+#!/bin/bash
+
+GOLDENDIR="$HOME/.complex-alias"
+
+ALIAS=$1
+CMD=$2
+EVA=$3
+
+./script-maker.py "$ALIAS" "$CMD" $EVA
+
+chmod +x $GOLDENDIR/$ALIAS
