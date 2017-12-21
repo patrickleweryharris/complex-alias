@@ -36,7 +36,7 @@ Complex-alias works by creating a script under `name` that executes `command` wi
 
 Let's go through an example.
 
-Say you want to create an alias that lets you cd into a directory and then do ls.
+Say you want to create an alias that lets you `cd` into a directory and then do `ls`.
 
 Using complex-alias, you would do the following:
 
@@ -62,6 +62,8 @@ function execute(){
 
 execute $1
 ```
+
+Where `/bin/zsh` will be replaced with whatever shell you are currently using.
 
 Which can be called via:
 
