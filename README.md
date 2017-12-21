@@ -47,7 +47,7 @@ Where arguments are denoted by a `%` and a number (`%` is used because `$` cause
 problems in bash). The argument numbers must start from 1. The `-e` flag is used
 if you want to evaluate a new shell in the alias (i.e. it runs `exec $SHELL`
 after the command). This flag is useful in this case because we want to stay in
-the directory that we cd into.
+the directory that we `cd` into.
 
 Running this command will produce a shell script called `cdl` in the `~/.complex-alias` directory
 with the following contents:
