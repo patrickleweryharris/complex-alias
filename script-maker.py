@@ -35,6 +35,6 @@ if __name__ == '__main__':
     if len(argv) < 3:
         print("Usage complex-alias <script name> <command> <flag>")
     eva = False
-    if len(argv) == 4 and argv[3] == 'eva':
+    if len(argv) == 4 and argv[3] == '-e':
         eva = True
     make_script(argv[1], argv[2], eva)
